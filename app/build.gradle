@@ -7,14 +7,16 @@ android {
     defaultConfig {
         applicationId "com.scoutingstuff.paul.ivossenjacht"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 15
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
         }
     }
 }

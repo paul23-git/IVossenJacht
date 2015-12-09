@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">IVossenJacht</string>
+    <string name="server_url">http://82.139.125.134:9000/myapp/IFoxHuntGame/</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
